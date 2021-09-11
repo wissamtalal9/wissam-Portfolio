@@ -107,7 +107,7 @@ class Landing extends React.Component {
                             <i className="ni ni-cloud-download-95" />
                           </span>
                           <span className="btn-inner--text">
-                            Download React
+                            Downloa
                           </span>
                         </Button>
                       </div>
@@ -146,7 +146,7 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                           201 Project 
+                            
                           </h6>
                           <p className="description mt-3">
                             <ul>

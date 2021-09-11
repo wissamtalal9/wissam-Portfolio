@@ -5842,10 +5842,10 @@ button.bg-darker:focus {
   white-space: normal; }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important; }
+  box-shadow: 0 0.125rem 0.25rem rgba(77, 13, 5, 0.075) !important; }
 
 .shadow, .profile-page .card-profile .card-profile-image img {
-  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07) !important; }
+  box-shadow: 0 15px 35px rgba(50, 70, 40, 0.1), 0 5px 15px rgba(10, 5, 55, 0.07) !important; }
 
 .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important; }
@@ -15329,10 +15329,11 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   transform: translateY(-100%); }
 
 .headroom--not-top {
+  background : linear-gradient(120deg,#0f5fa6 15%,#042dd9 70%,#eb713d 94%)!important
   padding-top: .5rem;
   padding-bottom: .5rem;
   background-color: #172b4d !important;
-  box-shadow: 0 1px 10px rgba(130, 130, 134, 0.1); }
+  box-shadow: 0 2px 3px rgba(177, 7, 190, 0.4); }
 
 .ct-clipboard {
   position: relative;
