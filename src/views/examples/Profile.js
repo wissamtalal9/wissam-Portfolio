@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/protofile.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -64,7 +64,16 @@ class Profile extends React.Component {
               </svg>
             </div>
           </section>
-          <section className="section">
+          <section className="section ">
+          <div className="shape shape-style-1 shape-default alpha-4">
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </div>
             <Container>
               <Card className="card-profile shadow mt--300">
                 <div className="px-4">
@@ -92,7 +101,7 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Connect
+                          Call Me
                         </Button>
                         <Button
                           className="float-right"
@@ -101,22 +110,22 @@ class Profile extends React.Component {
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
-                          Message
+                          0787273909
                         </Button>
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
+                          <span className="heading">34</span>
                           <span className="description">Friends</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
+                          <span className="heading">1</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
+                          <span className="heading">19</span>
                           <span className="description">Comments</span>
                         </div>
                       </div>
@@ -124,31 +133,31 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Wissam AbuAresh{" "}
+                      <span className="font-weight-light"></span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Amman ,Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Computer Science
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Mutah university
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        Computer Science graduate from mutah university in 2013, and In 2014 - 2016 I learn ASP.net C# and take course in pioneer academy
+              , From 2016-2018 Learn PHP (MVC,HTML,CSS3,Bootstrap, HTML5, JS,JQ,datababe) and work in levanter's company in one year,
+              I develop my skills so i Enjoy in this course in LTUC to be Full-stack web developer . 
+         
+
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
