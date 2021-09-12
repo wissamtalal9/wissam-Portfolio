@@ -110,7 +110,7 @@ class DemoNavbar extends React.Component {
                 </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
-                    <DropdownToggle nav>
+                    {/* <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Components</span>
                     </DropdownToggle>
@@ -171,7 +171,7 @@ class DemoNavbar extends React.Component {
                           </Media>
                         </Media>
                       </div>
-                    </DropdownMenu>
+                    </DropdownMenu> */}
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
@@ -198,7 +198,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://web.facebook.com/amal.wissam.52"
+                      href="https://www.facebook.com/yasseenkouthe/"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -230,7 +230,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href=""
+                      href="https://twitter.com/1998_yaseen"
                       id="tooltip184698705"
                       target="_blank"
                     >
@@ -246,7 +246,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/wissamtalal9"
+                      href="https://github.com/yaseen1998"
                       id="tooltip112445449"
                       target="_blank"
                     >
@@ -256,7 +256,7 @@ class DemoNavbar extends React.Component {
                       </span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip112445449">
-                      Start us on Github
+                      Star us on Github
                     </UncontrolledTooltip>
                   </NavItem>
                   {/* <NavItem className="d-none d-lg-block ml-lg-4">
