@@ -198,7 +198,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/yasseenkouthe/"
+                      href="https://web.facebook.com/?_rdc=1&_rdr"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -230,7 +230,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://twitter.com/1998_yaseen"
+                      href="https://twitter.com"
                       id="tooltip184698705"
                       target="_blank"
                     >
@@ -246,7 +246,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://github.com/yaseen1998"
+                      href="https://github.com/wissamtalal9"
                       id="tooltip112445449"
                       target="_blank"
                     >
